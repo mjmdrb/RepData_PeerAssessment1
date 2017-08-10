@@ -25,7 +25,7 @@ find the mean and median of the total number of steps taken per day.
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/cp/pwf7ntbx7j96bx3j9r7n5h0c0000gn/T//RtmpNj7UqZ/downloaded_packages
+    ##  /var/folders/cp/pwf7ntbx7j96bx3j9r7n5h0c0000gn/T//RtmpyI5IUv/downloaded_packages
 
     library(plyr)
     stepsPerDay <- ddply(activity,~date,summarise,sum=sum(steps,na.rm=TRUE))
